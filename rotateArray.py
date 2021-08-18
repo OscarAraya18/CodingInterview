@@ -6,11 +6,7 @@ def rotateArrayAnticlockwise(array, rotations):
 
     array[0:rotations] = reverseArray(array[0:rotations])
     array[rotations:arrayLength] = reverseArray(array[rotations:arrayLength])
-
     array = reverseArray(array)
-
-    print(array)
-
     return array
 
 
@@ -21,4 +17,4 @@ def reverseArray(array):
     return reversedArray
 
 
-rotateArrayAnticlockwise([2,4,6,8,10,12,14,16,18,20], 10)
+rotateArrayAnticlockwise([2, 4, 6, 8, 10, 12, 14, 16, 18, 20], 10)
