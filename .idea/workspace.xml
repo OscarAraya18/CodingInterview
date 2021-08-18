@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9ea3f606-b1cd-49f0-8560-841e2f301bbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondLargestArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/secondLargestArray.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python.secondLargestArray">
+  <component name="RunManager" selected="Python.greaterThanRightSideArray">
+    <configuration name="greaterThanRightSideArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CodingInterviewLocal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/greaterThanRightSideArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="minimumMaximumArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CodingInterviewLocal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.greaterThanRightSideArray" />
         <item itemvalue="Python.secondLargestArray" />
         <item itemvalue="Python.rotateArray" />
         <item itemvalue="Python.minimumMaximumArray" />
@@ -119,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629306331912</updated>
-      <workItem from="1629306351441" duration="6950000" />
+      <workItem from="1629306351441" duration="10188000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1629306436093</created>
@@ -170,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629312854105</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[CHANGES @ secondLargestArray.py]">
+      <created>1629314540626</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629314540626</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,44 +212,46 @@
     <MESSAGE value="[NEW] Created a algorithm capable of rotating an n length array (V2)." />
     <MESSAGE value="[CHANGES @ rotateArray.py]" />
     <MESSAGE value="[NEW] Created a algorithm capable of finding the second largest number of an n length array." />
-    <option name="LAST_COMMIT_MESSAGE" value="[NEW] Created a algorithm capable of finding the second largest number of an n length array." />
+    <MESSAGE value="[CHANGES @ secondLargestArray.py]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[CHANGES @ secondLargestArray.py]" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="334" y="9" key="CommitChangelistDialog2" timestamp="1629312853248">
+    <state x="334" y="9" key="CommitChangelistDialog2" timestamp="1629314539801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="334" y="9" key="CommitChangelistDialog2/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629312853248" />
-    <state width="1493" height="139" key="GridCell.Tab.0.bottom" timestamp="1629312765094">
+    <state x="334" y="9" key="CommitChangelistDialog2/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629314539801" />
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom" timestamp="1629317996070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="139" key="GridCell.Tab.0.bottom/-1366.137.1366.718/0.0.1536.824@-1366.137.1366.718" timestamp="1629311432601" />
-    <state width="1493" height="139" key="GridCell.Tab.0.bottom/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629312765094" />
-    <state width="1493" height="139" key="GridCell.Tab.0.center" timestamp="1629312765094">
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629317996070" />
+    <state width="1493" height="139" key="GridCell.Tab.0.center" timestamp="1629317996070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="139" key="GridCell.Tab.0.center/-1366.137.1366.718/0.0.1536.824@-1366.137.1366.718" timestamp="1629311432600" />
-    <state width="1493" height="139" key="GridCell.Tab.0.center/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629312765094" />
-    <state width="1493" height="139" key="GridCell.Tab.0.left" timestamp="1629312765094">
+    <state width="1493" height="139" key="GridCell.Tab.0.center/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629317996070" />
+    <state width="1493" height="139" key="GridCell.Tab.0.left" timestamp="1629317996070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="139" key="GridCell.Tab.0.left/-1366.137.1366.718/0.0.1536.824@-1366.137.1366.718" timestamp="1629311432600" />
-    <state width="1493" height="139" key="GridCell.Tab.0.left/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629312765094" />
-    <state width="1493" height="139" key="GridCell.Tab.0.right" timestamp="1629312765094">
+    <state width="1493" height="139" key="GridCell.Tab.0.left/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629317996070" />
+    <state width="1493" height="139" key="GridCell.Tab.0.right" timestamp="1629317996070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="139" key="GridCell.Tab.0.right/-1366.137.1366.718/0.0.1536.824@-1366.137.1366.718" timestamp="1629311432600" />
-    <state width="1493" height="139" key="GridCell.Tab.0.right/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629312765094" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1629312865526">
+    <state width="1493" height="139" key="GridCell.Tab.0.right/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629317996070" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1629314551327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629312865526" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629314551327" />
     <state x="475" y="204" key="git4idea.merge.GitPullDialog" timestamp="1629312858667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="204" key="git4idea.merge.GitPullDialog/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629312858667" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CodingInterviewLocal$secondLargestArray.coverage" NAME="secondLargestArray Coverage Results" MODIFIED="1629312765085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CodingInterviewLocal$secondLargestArray.coverage" NAME="secondLargestArray Coverage Results" MODIFIED="1629316846536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CodingInterviewLocal$greaterThanRightSideArray.coverage" NAME="greaterThanRightSideArray Coverage Results" MODIFIED="1629317996061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CodingInterviewLocal$rotateArray.coverage" NAME="rotateArray Coverage Results" MODIFIED="1629312603902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CodingInterviewLocal$minimumMaximumArray.coverage" NAME="minimumMaximumArray Coverage Results" MODIFIED="1629309525751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
