@@ -16,7 +16,7 @@ def secondLargestArray(array):
         elif array[i] > secondLargest and array[i] != largest:
             secondLargest = array[i]
 
-    if(secondLargest == defaultNumber):
+    if secondLargest == defaultNumber:
         return "Error"
     return secondLargest
 
