@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ea3f606-b1cd-49f0-8560-841e2f301bbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimumMaximumArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/minimumMaximumArray.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wuR918rVWcoOA3yYwgo7VYAoRU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.rotateArray">
     <configuration name="minimumMaximumArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CodingInterviewLocal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,8 +56,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rotateArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CodingInterviewLocal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rotateArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rotateArray" />
         <item itemvalue="Python.minimumMaximumArray" />
       </list>
     </recent_temporary>
@@ -72,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629306331912</updated>
-      <workItem from="1629306351441" duration="1934000" />
+      <workItem from="1629306351441" duration="5064000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1629306436093</created>
@@ -81,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629306436093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[NEW] Created a algorithm capable of finding the minimum and the maximum of an length n array, in linear time O(n).">
+      <created>1629308500186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629308500186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,35 +119,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="[NEW] Created a algorithm capable of finding the minimum and the maximum of an length n array, in linear time O(n)." />
+    <option name="LAST_COMMIT_MESSAGE" value="[NEW] Created a algorithm capable of finding the minimum and the maximum of an length n array, in linear time O(n)." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="9" key="CommitChangelistDialog2" timestamp="1629306432114">
+    <state x="392" y="9" key="CommitChangelistDialog2" timestamp="1629308499239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="392" y="9" key="CommitChangelistDialog2/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629306432114" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1629308177311">
+    <state x="392" y="9" key="CommitChangelistDialog2/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629308499239" />
+    <state width="1035" height="139" key="GridCell.Tab.0.bottom" timestamp="1629311589399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629308177311" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1629308177310">
+    <state width="1323" height="139" key="GridCell.Tab.0.bottom/-1366.137.1366.718/0.0.1536.824@-1366.137.1366.718" timestamp="1629311432601" />
+    <state width="1035" height="139" key="GridCell.Tab.0.bottom/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629311589399" />
+    <state width="1035" height="139" key="GridCell.Tab.0.center" timestamp="1629311589399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629308177310" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1629308177310">
+    <state width="1323" height="139" key="GridCell.Tab.0.center/-1366.137.1366.718/0.0.1536.824@-1366.137.1366.718" timestamp="1629311432600" />
+    <state width="1035" height="139" key="GridCell.Tab.0.center/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629311589399" />
+    <state width="1035" height="139" key="GridCell.Tab.0.left" timestamp="1629311589399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629308177310" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1629308177311">
+    <state width="1323" height="139" key="GridCell.Tab.0.left/-1366.137.1366.718/0.0.1536.824@-1366.137.1366.718" timestamp="1629311432600" />
+    <state width="1035" height="139" key="GridCell.Tab.0.left/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629311589399" />
+    <state width="1035" height="139" key="GridCell.Tab.0.right" timestamp="1629311589399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629308177311" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1629306468427">
+    <state width="1323" height="139" key="GridCell.Tab.0.right/-1366.137.1366.718/0.0.1536.824@-1366.137.1366.718" timestamp="1629311432600" />
+    <state width="1035" height="139" key="GridCell.Tab.0.right/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629311589399" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1629308513026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629306468427" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/-1366.137.1366.718/0.0.1536.824@0.0.1536.824" timestamp="1629308513026" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CodingInterviewLocal$minimumMaximumArray.coverage" NAME="minimumMaximumArray Coverage Results" MODIFIED="1629308177300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CodingInterviewLocal$rotateArray.coverage" NAME="rotateArray Coverage Results" MODIFIED="1629311589391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CodingInterviewLocal$minimumMaximumArray.coverage" NAME="minimumMaximumArray Coverage Results" MODIFIED="1629309525751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
